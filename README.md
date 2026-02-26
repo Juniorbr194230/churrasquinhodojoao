@@ -1,2 +1,238 @@
 # churrasquinhodojoao
 Churrasquinho do João no Cruzeiro Novo
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Churrasquinho do João</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fdf6ec;
+            color: #333;
+        }
+        header {
+            background: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #333;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        h2 {
+            color: #b22222;
+        }
+        .cardapio {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .item {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 250px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .item img {
+            width: 100%;
+            height: 150px;
+            background: #eee;
+            margin-bottom: 10px;
+        }
+        .btn-whatsapp {
+            display: inline-block;
+            background: #25d366;
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+        .btn-whatsapp:hover {
+            background: #1ebe5d;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background: #black;
+    color: white;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.logo-header h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    margin: 0;
+}
+.logo-header .logo {
+    width: 60px; /* Tamanho pequeno */
+    height: auto;
+}
+    </style>
+</head>
+<body>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fdf6ec;
+            color: #333;
+        }
+        header {
+            background: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-family: 'Lobster', cursive;
+            font-size: 48px;
+        }
+
+.btn-container {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.btn-maps {
+    display: inline-block;
+    background: #4285F4;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+.btn-maps:hover {
+    background: #3367D6;
+}
+    </style>
+</head>
+<body>
+<header class="logo-header">
+    <img src="churrasquinho.png" alt="Logo Churrasquinho" class="logo">
+    <h1>Churrasquinho do João</h1>
+    <img src="churrasquinho.png" alt="Logo Churrasquinho" class="logo">
+    </header>
+</body>
+</html>
+
+
+
+    <nav>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#historia">História</a>
+        <a href="#contato">Contato</a>
+    </nav>
+
+    <section id="cardapio">
+        <h2>Nosso Cardápio</h2>
+        <div class="cardapio">
+            <div class="item">
+                <img src="imagem-carne.jpg" alt="Espetinho de Carne">
+                <h3>Espetinho de Carne</h3>
+                <p>R$ 12,00</p>
+            </div>
+            <div class="item">
+                <img src="imagem-frango.jpg" alt="Espetinho de Frango">
+                <h3>Espetinho de Frango</h3>
+                <p>R$ 12,00</p>
+            </div>
+            <div class="item">
+                <img src="imagem-linguica.jpg" alt="Espetinho de Linguiça">
+                <h3>Espetinho de Linguiça</h3>
+                <p>R$ 12,00</p>
+            </div>
+                <div class="item">
+                <img src="jantinha.png" alt="Jantinha">
+                <h3>Jantinha</h3>
+                <p>R$ 24,00</p>
+            </div>
+        </div>
+    </section>
+    <section id="anuncio">
+    <h2>🍢 Churrasquinho do João 🍻</h2>
+    <p>
+        🔥 Venha saborear os melhores espetinhos da região!  
+        Temos carne suculenta, frango temperado, linguiça saborosa, medalhões e muito mais.  
+    </p>
+    <p>
+        🥤 Para acompanhar: cervejas bem geladas, refrigerantes variados e sucos.  
+    </p>
+    <p>
+        🍽️ E não pode faltar a tradicional jantinha com arroz branco ou baião de dois, vinagrete e farofa.  
+    </p>
+</section>
+
+
+
+
+
+    <section id="historia">
+        <h2>Nossa História</h2>
+        <p>
+            O Churrasquinho do João nasceu no coração do Cruzeiro Novo, em Brasília, 
+            trazendo sabor e tradição para a comunidade. Desde o início, João se dedicou 
+            a oferecer espetinhos preparados com carinho e ingredientes de qualidade.
+        </p>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>📍 Endereço: Quadra 405, Bloco C, Cruzeiro Novo, Brasília - DF, CEP 70.650-453</p>
+        <p>📞 Telefone: (61) 98339-8183</p>
+        <a class="btn-whatsapp" href="https://wa.me/5561983398183" target="_blank">
+            📲 Fale com João no WhatsApp</a>
+    </section>
+<div class="btn-container">
+    <a class="btn-maps" href="https://www.google.com/maps/place/Churrasquinho+do+Jo%C3%A3o/@-15.7967713,-47.9423101,239m/data=!3m1!1e3!4m12!1m5!3m4!2zMTXCsDQ3JzUwLjEiUyA0N8KwNTYnMzEuMCJX!8m2!3d-15.797259!4d-47.941937!3m5!1s0x935a31375ea71f35:0xccd8a401300710be!8m2!3d-15.7972806!4d-47.9419595!16s%2Fg%2F11xvgvlqnd?entry=ttu&g_ep=EgoyMDI2MDIyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">
+        📍 Ver localização no Google Maps
+    </a>
+</div>
+
+
+    <footer>
+        <p>&copy; 2026 Churrasquinho do João - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
